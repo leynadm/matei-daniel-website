@@ -1,0 +1,274 @@
+/* #010C80 */
+:root {
+    --mainColor: #FFFFFF;
+    --mainColorLight: #5767aa;
+    --secondaryColor: #db2b39;
+    --textColor: #010C80;
+}
+
+header .nav-btn {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    visibility: hidden;
+    opacity: 0;
+}
+
+/* Small screens (up to 599px) */
+@media (max-width: 599px) {
+
+    header .nav-btn {
+        visibility: visible;
+        opacity: 1;
+        font-size: 2rem;
+    }
+
+    .header-light{
+        background-color: white;
+    }
+
+    header  {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 56px;
+        padding: 0 1rem;
+        background-color: var(--mainColor);
+        color: var(--textColor);
+    }
+
+    header nav {
+        position: fixed;
+        top: -100vh;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: var(--mainColor);
+        transition: 1s;
+    }
+
+    header .responsive_nav {
+        transform: translateY(100vh);
+    }
+
+    nav .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    nav a {
+        font-size: 1.5rem;
+        margin: 0 1rem;
+        color: var(--textColor);
+        text-decoration: none;
+    }
+
+    .header-logo {
+        height: auto;
+        width: 13rem;
+    }
+
+    rect {
+        display: none;
+    }
+}
+
+
+/* 
+@media (min-width: 600px) and (max-width: 899px) {
+
+    header .nav-btn {
+        visibility: visible;
+        opacity: 1;
+        font-size: 2.25rem;
+
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 8vh;
+        padding: 0 2rem;
+        background-color: var(--mainColor);
+        color: var(--textColor);
+    }
+
+    header nav {
+        position: fixed;
+        top: -100vh;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: var(--mainColor);
+        transition: 1s;
+    }
+
+    header .responsive_nav {
+        transform: translateY(100vh);
+    }
+
+    nav .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    nav a {
+        font-size: 1.5rem;
+        margin: 0 1rem;
+        color: var(--textColor);
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+
+    .header-logo {
+        height: auto;
+        width: 16rem;
+    }
+
+    rect {
+        display: none;
+    }
+
+}
+
+
+@media (min-width: 900px) {
+
+
+
+    .header-logo {
+        height: auto;
+        width: 16rem;
+    }
+
+    header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 56px;
+        padding: 0 2rem;
+        background-color: var(--mainColor);
+        color: var(--textColor);
+    }
+
+    nav a {
+        margin: 0 1rem;
+        color: var(--textColor);
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+
+    nav a:hover {
+        color: var(--secondaryColor);
+    }
+
+    header div,
+    nav {
+        display: flex;
+        align-items: center;
+    }
+
+    rect {
+        display: none;
+    }
+
+} 
+*/
+
+
+
+
+
+
+
+/* CSS */
+.mode-btn.light {
+  z-index: -1;
+  appearance: none;
+  background-color: #FFFFFF;
+  border-width: 0;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Clarkson,Helvetica,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1em;
+  margin: 0;
+  opacity: 1;
+  outline: 0;
+  padding: 1.5em 2.2em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: geometricprecision;
+  text-transform: uppercase;
+  transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.mode-btn.light:before {
+  animation: opacityFallbackOut .5s step-end forwards;
+  backface-visibility: hidden;
+  background-color: #EBEBEB;
+  clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: translateZ(0);
+  transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+  width: 100%;
+}
+
+.mode-btn.light:hover:before {
+  animation: opacityFallbackIn 0s step-start forwards;
+  clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+}
+
+.mode-btn.light:after {
+  background-color: #FFFFFF;
+}
+
+.mode-btn.light span {
+  position: relative;
+}

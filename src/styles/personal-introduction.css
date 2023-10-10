@@ -1,0 +1,42 @@
+.pers-intr-main-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intr-line{
+    font-size: 2rem;
+
+}
+
+.intr-line-highlight{
+    background-color: black;
+    color: white;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-align: center;
+}
+
+
+/* 
+.my-picture {
+    position: relative;
+    width: 350px;
+    height: 250px;
+    background: white;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    color: white;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+  }
+  .my-picture:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+  }
+   */
+   .my-picture{
+    width: 75%;
+    border-radius: 100%;
+   }
+
