@@ -147,6 +147,7 @@ html [type="button"],
     -webkit-appearance: button
 }
 
+
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -465,6 +466,7 @@ h6,
 }
 
 @media (max-width: 640px) {
+    
     .h1-mobile {
         font-size: 38px;
         line-height: 48px;
@@ -1477,7 +1479,7 @@ label {
     position: relative;
     width: 12em; height: 6em;
     border-radius: .25em;
-    transform: rotate(-4deg) rotateY(15deg) translate(100px,20px);
+    transform: rotate(-4deg) rotateY(15deg) translate(30px,20px);
     background: #629bdd;
     font-size: 1rem;
     text-align: center;
@@ -1497,10 +1499,10 @@ label {
     border: solid 0 transparent;
     border-right: solid 3.5em #f4fbfe;
     border-bottom: solid .25em #629bdd;
-    bottom: .5em; left: 1.25em;
-    width: 0; height: 0.05em;
-    transform:  rotate(-50deg) skewX(80deg);
-  }
+    bottom: .5em; left: 8.25em;
+    width: 0.5rem; height: .65rem;
+    transform:  rotate(-50deg) skewX(-100deg);
+    }
   
 
 .hero-figure::after {
@@ -1665,6 +1667,17 @@ label {
 }
 
 @media (max-width: 640px) {
+    
+    .speech-bubble {
+
+        transform: rotate(-4deg) rotateY(15deg) translate(30px,20px);
+      }
+      .speech-bubble:before {
+        bottom: .5em; left: 8.25em;
+        width: 0.5rem; height: .65rem;
+        transform:  rotate(-50deg) skewX(-100deg);
+      }
+      
     .hero-cta {
         max-width: 280px;
         margin-left: auto;
@@ -1899,6 +1912,9 @@ label {
     }
 }
 
+.feature-image{
+    height: 5rem;
+}
 
 .technology-wrapper{
     display: flex;
@@ -2198,3 +2214,13 @@ animation: slideIn 0.5s ease forwards;
     animation: slideInRight 0.5s ease forwards;
   }
   
+  .footer-social-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .material-symbols-outlined{
+    font-size: 2rem;
+  }

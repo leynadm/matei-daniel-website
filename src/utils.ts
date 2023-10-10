@@ -7,7 +7,8 @@ export const thisWebsite = {
     process of simplifying as much as possible an initially complicated
     idea.`,
     liveLink: "https://mateidaniel.com/",
-    codeLink: "https://mateidaniel.com/",
+    codeLink: "https://github.com/leynadm/matei-daniel-website",
+    imageLink:"https://firebasestorage.googleapis.com/v0/b/matei-daniel-website.appspot.com/o/website.png?alt=media&token=2828d155-4c29-4f13-b217-d705099e1570&_gl=1*1q7hc6v*_ga*NjYzMzI3MTUwLjE2OTM5MzIzMjM.*_ga_CW55HF8NVT*MTY5Njk3MTA5Ni4zNy4xLjE2OTY5NzUxODUuNTEuMC4w",
     technologies: [
       {
         name: "HTML",
@@ -49,6 +50,7 @@ export const thisWebsite = {
     sessions.`,
     liveLink: "https://fitpowerup.com/",
     codeLink: "https://github.com/leynadm/fitPowerUp",
+    imageLink:"https://firebasestorage.googleapis.com/v0/b/matei-daniel-website.appspot.com/o/fitPowerUpLogoV4SVG.png?alt=media&token=ea431694-8565-4cd6-a9ca-5e974d5210fc&_gl=1*3f5x3e*_ga*NjYzMzI3MTUwLjE2OTM5MzIzMjM.*_ga_CW55HF8NVT*MTY5Njk3MTA5Ni4zNy4xLjE2OTY5NzMxNDAuNTMuMC4w",
     technologies: [
       {
         name: "HTML",
@@ -108,6 +110,7 @@ export const thisWebsite = {
     wants to use it, I have nothing against it). Additionally you can invite your friends and compare your stats.`,
     liveLink: "https://myfootballtracker.com/",
     codeLink: "https://github.com/leynadm/myfootballtracker",
+    imageLink:"https://firebasestorage.googleapis.com/v0/b/matei-daniel-website.appspot.com/o/myFootballTrackerV3.png?alt=media&token=4499fbdd-2402-4121-bb6c-dc894632d9ac&_gl=1*2wn5r5*_ga*NjYzMzI3MTUwLjE2OTM5MzIzMjM.*_ga_CW55HF8NVT*MTY5Njk3MTA5Ni4zNy4xLjE2OTY5NzI5MDQuMzUuMC4w",
     technologies: [
       {
         name: "HTML",

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 interface ProjectTileInterface {
   title: string;
@@ -6,6 +6,7 @@ interface ProjectTileInterface {
   technologies: technologyInterface[];
   livelink:string;
   codeLink:string
+  imageLink:string
 }
 
 interface technologyInterface{
@@ -20,7 +21,8 @@ function ProjectTile({
   description,
   technologies,
   livelink,
-  codeLink
+  codeLink,
+  imageLink
 }: ProjectTileInterface) {
 
   const [showDescription, setShowDescription] = useState(true);
@@ -36,14 +38,18 @@ function ProjectTile({
     }
   };
 
+
+  useEffect(()=>{
+    console.log(imageLink)
+  },[])
   return (
     <>
       <div className="feature text-center is-revealing">
         <div className="feature-inner">
           <div className="feature-icon">
-            <img
-              src="src/assets/images/feature-icon-01.svg"
-              alt="Feature 01"
+            <img className="feature-image"
+              src={imageLink}
+              alt="Project"
             ></img>
           </div>
           
