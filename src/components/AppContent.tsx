@@ -291,8 +291,7 @@ function AppContent() {
                       </h2>
                       <p className="section-paragraph mb-0">
                         My GitHub profile has all my work, and a lot more of my
-                        projects. You're always invited to have a look if your
-                        curious.
+                        projects. You're always invited to have a look!
                       </p>
                       <a href="https://github.com/leynadm">
                         <img
