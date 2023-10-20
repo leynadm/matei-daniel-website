@@ -39,9 +39,6 @@ function ProjectTile({
   };
 
 
-  useEffect(()=>{
-    console.log(imageLink)
-  },[])
   return (
     <>
       <div className="feature text-center is-revealing">

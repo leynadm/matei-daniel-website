@@ -1504,7 +1504,9 @@ label {
     width: 0.5rem; height: .65rem;
     transform:  rotate(-50deg) skewX(-100deg);
     }
-  
+.speech-bubble p{
+    margin-top:8px;
+}
 
 .hero-figure::after {
     top: -35.6%;

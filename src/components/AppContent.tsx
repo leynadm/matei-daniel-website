@@ -137,8 +137,8 @@ function AppContent() {
                       ref={containerRefs[3]}
                     >
                       <div className="speech-bubble">
-                        I speak English, French, Spanish, Romanian and
-                        Javascript.
+                        <p>I speak English, French, Spanish, Romanian and
+                        Javascript.</p>
                       </div>
                       <img
                         src="https://firebasestorage.googleapis.com/v0/b/matei-daniel-website.appspot.com/o/DANIEL_UPPER_TORSO_b_1024-min.png?alt=media&token=dc016c83-2606-43d8-a4c8-2cbe41303162&_gl=1*rsiusk*_ga*NjYzMzI3MTUwLjE2OTM5MzIzMjM.*_ga_CW55HF8NVT*MTY5Njg5MTkyMC4zNC4xLjE2OTY4OTE5MzAuNTAuMC4w"
