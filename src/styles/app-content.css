@@ -144,7 +144,7 @@ button,
 html [type="button"],
 [type="reset"],
 [type="submit"] {
-    -webkit-appearance: button
+    appearance: button
 }
 
 
@@ -1403,10 +1403,11 @@ label {
 }
 
 .hero-cta {
-    gap: 0.5rem;
+    gap: 0.25rem;
     display: flex;
     align-items: center;
-    margin-bottom: 40px;
+    justify-content: center;
+    
     padding-top:1rem;
 }
 
@@ -1685,13 +1686,9 @@ label {
     }
 
     .hero-cta .button {
-        display: flex
+        display: flex;
+        min-width: 7rem;
     }
-
-    /* 
-    .hero-cta .button+.button {
-        margin-top: 16px
-    } */
 
     .hero-figure::after,
     .hero-figure-box-03,
@@ -1725,13 +1722,11 @@ label {
     }
 
     .hero-cta .button {
-        min-width: 170px
+        min-width: 8rem;
     }
 
     /*  */
-    .hero-cta .button:first-child {
-        margin-right: 16px
-    }
+
 
     .hero-figure svg {
         width: auto

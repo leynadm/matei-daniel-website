@@ -163,9 +163,10 @@ function AppContent() {
                         do enough to figure it out.
                       </h2>
                       <p className="section-paragraph mb-0">
-                        Even though I've been coding since 2018, I only started
-                        to learn web development in 2022. These are some of the
-                        technologies I've learned and successfully worked with.
+                        I've been coding since 2018, and entered the field of
+                        web development in early 2022. Here is an overview of
+                        the technology stack I've learned - and effectively used
+                        so far.
                       </p>
                     </div>
                     <div className="info-tables-wrap">
@@ -304,7 +305,6 @@ function AppContent() {
                 </div>
               </section>
 
-
               <section
                 className={`cta section ${
                   isVisible[6] ? "visible slide-in-right" : ""
@@ -314,7 +314,7 @@ function AppContent() {
                 <div className="container">
                   <div className="cta-inner section-inner">
                     <h3 className="section-title mt-0">
-                      Do you want to collaborate? Don't hesitate to reach out!
+                      Have an interesting project and want to collaborate? Reach out!
                     </h3>
                     <div className="cta-cta">
                       <a
